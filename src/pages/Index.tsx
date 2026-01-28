@@ -94,11 +94,14 @@ const Index = () => {
         <div className="container mx-auto px-4 py-4">
           <div className="flex items-center justify-between">
             <div className="flex items-center space-x-3">
-              <img 
-                src="https://cdn.poehali.dev/projects/529a0f0c-fc27-4be2-a054-58f23eaa3bb9/bucket/8baed6c1-1859-4cd0-8ef2-d7627d8389dd.png" 
-                alt="Код будущего" 
-                className="h-16 md:h-20 w-auto"
-              />
+              <div className="relative group">
+                <div className="absolute -inset-2 bg-gradient-to-r from-cyan-500 to-purple-600 rounded-lg blur-lg opacity-50 group-hover:opacity-75 transition duration-300 animate-pulse-glow"></div>
+                <img 
+                  src="https://cdn.poehali.dev/projects/529a0f0c-fc27-4be2-a054-58f23eaa3bb9/bucket/8baed6c1-1859-4cd0-8ef2-d7627d8389dd.png" 
+                  alt="Код будущего" 
+                  className="h-16 md:h-20 w-auto relative"
+                />
+              </div>
             </div>
             
             <div className="hidden md:flex space-x-8">
