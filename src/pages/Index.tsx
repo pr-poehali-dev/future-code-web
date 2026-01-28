@@ -94,10 +94,11 @@ const Index = () => {
         <div className="container mx-auto px-4 py-4">
           <div className="flex items-center justify-between">
             <div className="flex items-center space-x-3">
-              <div className="w-10 h-10 bg-gradient-to-br from-cyan-500 to-blue-600 rounded-lg flex items-center justify-center neon-border">
-                <Icon name="Code2" className="text-white" size={24} />
-              </div>
-              <span className="text-2xl font-bold neon-text">КОД БУДУЩЕГО</span>
+              <img 
+                src="https://cdn.poehali.dev/projects/529a0f0c-fc27-4be2-a054-58f23eaa3bb9/bucket/8baed6c1-1859-4cd0-8ef2-d7627d8389dd.png" 
+                alt="Код будущего" 
+                className="h-12 w-auto"
+              />
             </div>
             
             <div className="hidden md:flex space-x-8">
@@ -401,11 +402,12 @@ const Index = () => {
 
       <footer className="bg-[#0A0F1E] border-t border-cyan-500/20 py-8 px-4 mt-20">
         <div className="container mx-auto text-center">
-          <div className="flex items-center justify-center space-x-3 mb-4">
-            <div className="w-8 h-8 bg-gradient-to-br from-cyan-500 to-blue-600 rounded-lg flex items-center justify-center">
-              <Icon name="Code2" className="text-white" size={20} />
-            </div>
-            <span className="text-xl font-bold text-cyan-400">КОД БУДУЩЕГО</span>
+          <div className="flex items-center justify-center mb-4">
+            <img 
+              src="https://cdn.poehali.dev/projects/529a0f0c-fc27-4be2-a054-58f23eaa3bb9/bucket/8baed6c1-1859-4cd0-8ef2-d7627d8389dd.png" 
+              alt="Код будущего" 
+              className="h-10 w-auto"
+            />
           </div>
           <p className="text-gray-400 mb-4">IT-академия нового поколения</p>
           <p className="text-gray-500 text-sm">© 2024 Код Будущего. Все права защищены.</p>
